@@ -1,10 +1,16 @@
 .header  {
+  /*Display, Justify-content, padding align-items and gap were added.*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: monospace;
-  background: papayawhip;
+  background: blue;
+  padding: 15px;
+  gap: 300px;
 }
 
 .logo {
-  font-size: 48px;
+  font-size: 50px;
   font-weight: 900;
   color: tomato;
   background: white;
@@ -14,12 +20,19 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  /*The following were added*/
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+  gap: 20px;
 }
 
 a {
+  
   font-size: 22px;
   background: white;
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  
 }
